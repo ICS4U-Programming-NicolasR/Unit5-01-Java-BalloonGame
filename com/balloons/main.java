@@ -21,6 +21,9 @@ public final class main {
     Balloon balloon2 = new Balloon(30, 110, Color.PINK, 2);
     Spike spike1 = new Spike(51);
 
+    System.out.println(balloon1.color);
+    balloon1.changeColour(Color.RED);
+    System.out.println(balloon1.color);
     System.out.print("Balloon1:" + balloon1.xPosition);
     System.out.println("," + balloon1.yPosition);
     System.out.print("Balloon2:" + balloon2.xPosition);
